@@ -8,6 +8,6 @@ public class JokesController {
 
     @RequestMapping({"/", ""})
     public String getJokes() {
-        return "Hello world";
+        return "chucknorris";
     }
 }
