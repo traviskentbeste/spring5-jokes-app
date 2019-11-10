@@ -21,7 +21,7 @@ public class JokesController {
 
         String jokeString = jokeService.getJoke();
         model.addAttribute("joke", jokeString);
-        System.out.println("Joke is " + jokeString);
+        //System.out.println("Joke is " + jokeString);
 
         return "chucknorris";
     }
